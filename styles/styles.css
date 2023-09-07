@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+main > * {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  max-width: 25%;
+}
+.nav-bar-links {
+  display: flex;
+}
+.nav-bar-links li {
+  padding: 0 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+  font-size: 1rem;
+}
+header {
+  margin-bottom: ;
+  color: #0a0639;
+}
+
+.first-illustration {
+  width: 85%;
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.get-started-button,
+.free-starter-button {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+}
+
+.main-part {
+  background-color: hsl(240, 75%, 98%);
+  background-image: url(/images/bg-curve-mobile.svg);
+  background-repeat: no-repeat;
+}
+.second-illustration {
+  width: 85%;
+}
+.free-trial-arrow-link * {
+}
+.testimonial-box {
+  background-color: white;
+}
+.free-trial-link {
+  color: hsl(170, 45%, 43%);
+}
+.free-starter {
+  background-color: hsl(238, 22%, 44%);
+}
+.free-starter-button {
+}
+
+footer {
+  text-align: left;
+  background-color: hsl(243, 87%, 12%);
+}
+footer * {
+  color: white;
+}
+
+@media (min-width: 400px) and (max-width: 1440px) {
+}
