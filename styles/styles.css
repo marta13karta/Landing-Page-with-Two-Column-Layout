@@ -47,7 +47,7 @@ header {
   margin-bottom: 70px;
   color: #0a0639;
 }
-.first-form input {
+.input input {
   width: 90%;
   padding: 12px 0;
   margin-bottom: 15px;
@@ -152,12 +152,19 @@ footer * {
 
   .first-form {
     display: flex;
+
+    align-items: flex-start;
     gap: 15px;
     width: 90%;
   }
-  .first-form input {
+  .input {
+    display: flex;
+    flex-direction: column;
     flex: 2;
+  }
+  .input input {
     padding: 15px 0;
+    margin-bottom: 0;
   }
   .first-illustration {
     width: 100%;
@@ -188,4 +195,8 @@ footer * {
 
 .get-started-button:hover {
   background-color: hsl(224, 93%, 58%, 0.8);
+  cursor: pointer;
+}
+
+input:focus {
 }
