@@ -64,6 +64,7 @@ header {
   padding-left: 20px;
   box-shadow: none;
   outline: none;
+  border: 1px solid rgb(42, 41, 41);
 }
 
 .header-text-form p {
@@ -300,6 +301,7 @@ footer * {
     display: flex;
     align-items: flex-start;
     gap: 15px;
+    width: 90%;
   }
   .input {
     display: flex;
@@ -314,9 +316,10 @@ footer * {
     width: 100%;
   }
   .get-started-button {
-    flex: 1.3;
+    flex: 1.2;
     margin: 0;
     padding: 15px 0;
+    font-size: 13px;
   }
   .main-part {
     display: flex;
@@ -386,12 +389,13 @@ footer * {
   }
   .free-starter > form > input[type="email"] {
     padding: 15px;
+    width: 72%;
   }
   .free-starter-button {
     padding: 15px 0;
     margin: 0;
-    font-size: 14px;
-    width: 33%;
+    font-size: 13px;
+    width: 30%;
     align-self: flex-start;
   }
   .footer-container {
